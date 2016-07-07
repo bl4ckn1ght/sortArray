@@ -7,13 +7,13 @@
 
 module.exports = function(){
 	function isArr(arr){
-		return Object.prototype.toString.call(arr) === "[object Array]"
+	return Object.prototype.toString.call(arr) === "[object Array]"
 	};
 	var sortArr = {
 		randomSort: function(arr,length){
 			if(isArr(arr)){
 				for(var j, x, i = arr.length; i; j = parseInt(Math.random() * i), x = arr[--i], arr[i] = arr[j], arr[j] = x);
-					console.log(arr.slice( 0, length));
+				console.log(arr.slice( 0, length));
 				return arr.slice( 0, length);
 			}
 		},
@@ -34,7 +34,6 @@ module.exports = function(){
 					firstIndex = arr[0];
 				}
 				newArr.slice(0, length);
-				console.log(newArr)
 			}
 		}
 	}
