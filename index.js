@@ -3,7 +3,6 @@
 * by Ming 16/07/06
 *
 */
-
 "use struct";
 
 module.exports = function(){
@@ -40,7 +39,6 @@ module.exports = function(){
 		}
 	}
 }
-
 
 
 
